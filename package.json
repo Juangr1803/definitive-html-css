@@ -1,0 +1,20 @@
+{
+  "name": "definitive-html-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juangr1803/definitive-html-css.git"
+  },
+  "keywords": [],
+  "author": "Juan Gonzalez <j3045771061@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Juangr1803/definitive-html-css/issues"
+  },
+  "homepage": "https://github.com/Juangr1803/definitive-html-css#readme"
+}
