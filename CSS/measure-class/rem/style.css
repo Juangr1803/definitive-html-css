@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+p {
+  /*  always to rem === 16px size that have of tag html  */
+  font-size: 1.6rem;
+}
+
+main div {
+  font-size: 1.6rem;
+}
