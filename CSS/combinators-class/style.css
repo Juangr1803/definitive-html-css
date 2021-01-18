@@ -1,0 +1,27 @@
+/* Combinator Adjacent sibiling */
+/* Aplicale el color rojo a todas las etiquetas parafo que esten cerca de un h2*/
+/* h2 + p {
+  color: red;
+} */
+/* -------------------------- */
+
+/* Combinator General sibiling */
+/* Aplicale el color rojo a todas las etiquetas parafo que esten cerca de un h2 no importa si no esta al lado solo si forma parte de un contenedor*/
+/* h2 ~ p {
+  color: red;
+} */
+/* -------------------------- */
+
+/* Combinator Child */
+/* Aplicale el color rojo a la equiqueta parafo que sea hija directa de una etiqueta div*/
+/* div > p {
+  color: red;
+} */
+/* -------------------------- */
+
+/* Combinator General sibiling */
+/* Todas las etiquetas <p> que esten adentro de un contenedor o de alguna etiqueta <div> agregale e color rojo*/
+div p {
+  color: red;
+}
+/* -------------------------- */

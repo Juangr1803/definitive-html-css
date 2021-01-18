@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Juangr1803/definitive-html-css/issues"
   },
-  "homepage": "https://github.com/Juangr1803/definitive-html-css#readme"
+  "homepage": "https://github.com/Juangr1803/definitive-html-css#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
 }

@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+}
+
+:root {
+  --nav--color: #13a4a4;
+}
+
+/* toda <a> que no este dentro de la clase .main-nav__item */
+a:not(.main-nav__item) {
+  color: blue;
+}
+
+.main-nav {
+  margin-top: 10px;
+  list-style: none;
+  padding: 0px;
+  background-color: var(--nav--color);
+}
+
+.main-nav__item {
+  color: white;
+  display: inline-block;
+}
+
+.main-nav__item:empty {
+  background: violet;
+  width: 100px;
+  height: 20px;
+}
+
+.main-nav__item a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.main-nav__item:nth-child(2n + 1) {
+  background-color: yellowgreen;
+}
+
+.main-nav__item a:visited {
+  color: #fffa23;
+}
+
+.main-nav__item a:hover {
+  color: blue;
+}
+
+.main-nav__item a:active {
+  color: red;
+}
+
+.main-nav__item a::after {
+  content: " | ";
+}
+
+.main-nav__item a::before {
+  content: " | ";
+}
